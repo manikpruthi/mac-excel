@@ -1,4 +1,4 @@
-//! `cargo xtask layers`: dependency layering rules (AGENTS.md "Layering", plan/architecture.md).
+//! `cargo xtask layers`: dependency layering rules (plan/architecture.md).
 //!
 //! The rule engine works on a small, metadata-independent model so it can be
 //! unit-tested; `from_metadata` builds that model from `cargo metadata`.
@@ -23,7 +23,7 @@ impl Class {
     }
 }
 
-/// The layering table (AGENTS.md "Layering", plan/architecture.md). Names are package names
+/// The layering table (plan/architecture.md). Names are package names
 /// without the `gridcraft-` prefix.
 pub const TABLE: &[(&str, Class)] = &[
     ("core", Class::Layer(0)),

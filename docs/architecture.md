@@ -2,7 +2,7 @@
 
 > **Last reviewed:** 2026-10-10 · **Last updated:** 2026-11-02 · **Change:** minor (Python mode in the formula bar; earlier: Python cells as data; earlier: equations: the `math` crate and the layout cache; earlier: recently used functions kept in the preferences; Function Library module; accent icons; earlier: the hidden names that hold macros) · **Target:** Microsoft Excel (Microsoft 365)
 
-How GridCraft is built today. Rules for contributors are in [`AGENTS.md`](../AGENTS.md).
+How GridCraft is built today.
 
 ## Workspace and layering
 

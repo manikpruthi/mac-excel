@@ -43,7 +43,7 @@ long `.xls` track, so about half parallelizes (≈30–50 wall-clock hours with 
   16.113.4**, installed on the owner's Mac (version read from Spotlight metadata with `mdls`).
   Where Excel for Windows has more (Power Pivot, VBA editor depth, COM add-ins, 3D Maps), the
   Windows feature counts as part of the target.
-- **Clean-room limits.** This repo's rule (AGENTS.md, "Non-negotiables") forbids reading anything
+- **Clean-room limits.** This repo's clean-room rule forbids reading anything
   inside the Office bundle, so the bundle's `Info.plist`, `.lproj` folders and resources were
   deliberately **not** inspected, and Excel was not launched for this pass. Excel's file formats,
   functions and features come from Microsoft's public documentation, the owner's earlier

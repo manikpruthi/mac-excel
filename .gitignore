@@ -9,3 +9,8 @@ plan/
 /target-*/
 /craft-fonts/
 /release/
+
+# Agent instruction files never belong in this repo (rules live in global config)
+AGENTS.md
+CLAUDE.md
+GEMINI.md

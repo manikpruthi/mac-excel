@@ -6,7 +6,7 @@
 //! - any file in `examples/` with an asset or sample-workbook extension (`.xlsx`, `.csv`, ...);
 //! - anywhere else, any image, icon or font file, or a workbook (`.xlsx`/`.xlsm`/`.xls`).
 //!
-//! See the asset rule in AGENTS.md: no vendor artwork, and every asset has an attribution row.
+//! Asset rule: no vendor artwork, and every asset has an attribution row.
 
 use std::path::Path;
 use std::process::Command;
